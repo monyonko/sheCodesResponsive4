@@ -1,5 +1,5 @@
-hamburger = document.querySelector("#hamburger");
-nestedList = document.querySelector('.nested-list')
+let hamburger = document.querySelector("#hamburger");
+let nestedList = document.querySelector('.nested-list')
 
 nestedList.style.display = "none";
 hamburger.addEventListener('click', ()=>{
