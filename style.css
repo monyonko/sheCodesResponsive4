@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Libre+Franklin&family=Montserrat:wght@100&family=Roboto&family=Roboto+Condensed&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+}
+.container{
+    width:100vw;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width:100vw;
+    height: 10vh;
+    padding: 3vh;
+    background: #e7ba83;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    margin:2vw;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+article{
+    width: 100vw;
+    text-align: center;
+    padding: 4vh;
+    margin: 8vh auto;   
+}
+
+h1{
+    font-size: 10vh;
+
+}
+.btn{
+    background: #80461B;
+    color: white;
+    font-size: 3vh;
+    border: none;
+}
+.description{
+    color: #80461B;
+    font-size: 5vh;
+}
+
+.nested-list{
+    position: absolute;
+    top:10vh;
+    right:0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px #e7ba83;;
+    margin: auto;
+    z-index: 1;
+    border-radius: 0 0 0.5vh 0.5vh;
+   
+}
+.encase{
+    flex:1;
+    display:flex;
+    height: auto;
+    flex-direction: column; 
+}
+
+.hamburger{
+    font-size: 5vh;
+}
+hr{
+    color: black;
+    transform-origin: bottom right;
+    transform: rotate(-45deg);
+    height: 3vh;
+    
+}
+
+@media screen and (max-width:320px){
+    h1{
+        font-size: 5vh;
+    
+    }
+    .description{
+        font-size: 3vh;
+    }
+
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 8vh;
+    
+    }
+    .description{
+        font-size: 4vh;
+    }
+}
+  
