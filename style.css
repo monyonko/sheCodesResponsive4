@@ -89,19 +89,36 @@ hr{
     
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width: 320px){
+    .navigation{
+        margin: 0;
+        width: 100vw;
+        padding: 1vh 0.2vh;
+        height: 8vh;
+    }
+    .nested-list{
+        top:8vh;
+    }
+
+    article{
+        width: fit-content;
+        padding: 1vh;
+    }
     h1{
-        font-size: 5vh;
+        font-size: 4vh;
     
     }
     .description{
-        font-size: 3vh;
+        font-size: 2vh;
     }
 
 }
 @media screen and (max-width:600px){
+    article{
+        padding: 1vh;
+    }
     h1{
-        font-size: 8vh;
+        font-size: 6vh;
     
     }
     .description{
